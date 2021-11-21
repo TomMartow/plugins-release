@@ -26,7 +26,6 @@
 rootProject.name = "plugins-release"
 
 include(":NewPlugin")
-include(":SocketCheck")
 
 for (project in rootProject.children) {
     project.apply {
