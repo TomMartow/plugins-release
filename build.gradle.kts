@@ -108,9 +108,5 @@ subprojects {
             dirMode = 493
             fileMode = 420
         }
-
-        withType<Checkstyle> {
-            group = "verification"
-        }
     }
 }

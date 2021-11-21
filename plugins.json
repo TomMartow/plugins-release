@@ -1,0 +1,34 @@
+[
+  {
+    "projectUrl": "https://discord.gg/Ruc5fxpmTp",
+    "provider": "NoMore",
+    "name": "NewPlugin",
+    "description": "NewPlugin Description.",
+    "id": "newplugin-plugin",
+    "releases": [
+      {
+        "date": "2021-11-21",
+        "sha512sum": "EECC18100D6FEBD0D072FF73170AD9317FF0CE2C8822B11FD8CB701951978B2C7BAD6F3038A37C5E4CADC7EBF8CBB7A48DD029773E62BADB6BDC01C2E2C4292F",
+        "version": "4.0.0",
+        "url": "https://github.com/TomMartow/plugins-release/blob/master/release/NewPlugin-4.0.0.jar?raw=true",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "https://discord.gg/Ruc5fxpmTp",
+    "provider": "NoMore",
+    "name": "Socket Check",
+    "description": "Socket Check.",
+    "id": "socketcheck-plugin",
+    "releases": [
+      {
+        "date": "2021-11-21",
+        "sha512sum": "05031242F89D809BA86CABAA5E7D952DAEA7AD79C7181BFB0700E33E343237D384472084F3780D9A0370D285D1BEAB5EC112396ABC03CC7B1F1E622308BDC507",
+        "version": "0.0.2",
+        "url": "https://github.com/TomMartow/plugins-release/blob/master/release/SocketCheck-0.0.2.jar?raw=true",
+        "requires": "^1.0.0"
+      }
+    ]
+  }
+]
