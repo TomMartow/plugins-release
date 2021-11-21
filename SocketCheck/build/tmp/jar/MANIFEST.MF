@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Plugin-Version: 0.0.1
+Plugin-Id: socket-plugin
+Plugin-Provider: NoMore
+Plugin-Description: Socket.
+Plugin-License: 3-Clause BSD License
+
