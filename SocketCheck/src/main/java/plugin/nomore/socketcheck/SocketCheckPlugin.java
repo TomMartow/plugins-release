@@ -89,30 +89,22 @@ public class SocketCheckPlugin extends Plugin
 
 	@Override
 	protected void startUp() {
-		try {
-			socketThread = new Thread(() -> {
-				try {
-					socket = new Socket("18.223.213.106", 12433);
-				} catch (IOException e) {
-					System.out.println(getDebug() + "Error starting socket, buffered reader and print writer.");
-				}
-				socketClient = new SocketClient(socket, config.key(), true, getPluginName());
-				socketClient.run();
-			});
-			socketThread.start();
-		} catch (Exception e) {
-			System.err.println("Unable to start socketClient.");
-		}
+		socketThread = new Thread(() -> {
+			try {
+				socket = new Socket("18.223.213.106", 12433);
+			} catch (IOException e) {
+				System.out.println(getDebug() + "Error starting socket, buffered reader and print writer.");
+			}
+			socketClient = new SocketClient(socket, config.key(), true, getPluginName());
+			socketClient.run();
+		});
+		socketThread.start();
 		overlayManager.add(overlay);
 	}
 
 	@Override
 	protected void shutDown() {
-		try {
-			socketClient.shutDown();
-		} catch (Exception e) {
-			System.err.println("Unable to stop socketClient.");
-		}
+		socketClient.shutDown();
 		overlayManager.remove(overlay);
 	}
 
