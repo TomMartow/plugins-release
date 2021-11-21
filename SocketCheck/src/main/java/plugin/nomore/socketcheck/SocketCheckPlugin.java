@@ -48,8 +48,8 @@ import java.util.Date;
 
 @Extension
 @PluginDescriptor(
-		name = "Socket",
-		description = "Socket.",
+		name = "Socket Check",
+		description = "Socket Check.",
 		tags = {"nomore", "socket", "connection"}
 )
 @Slf4j
@@ -91,7 +91,7 @@ public class SocketCheckPlugin extends Plugin
 	protected void startUp() {
 		socketThread = new Thread(() -> {
 			try {
-				socket = new Socket("18.223.213.106", 12433);
+				socket = new Socket("127.0.0.1", 12433);
 			} catch (IOException e) {
 				System.out.println(getDebug() + "Error starting socket, buffered reader and print writer.");
 			}
