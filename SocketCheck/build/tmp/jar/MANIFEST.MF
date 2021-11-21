@@ -3,5 +3,5 @@ Plugin-Version: 0.0.2
 Plugin-Id: socketcheck-plugin
 Plugin-Provider: NoMore
 Plugin-Description: Socket Check.
-Plugin-License: 3-Clause BSD License
+Plugin-License: GNU General Public License v3.0
 
