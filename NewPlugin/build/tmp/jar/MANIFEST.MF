@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Plugin-Version: 4.0.0
-Plugin-Id: newplugin-plugin
-Plugin-Provider: NoMore
-Plugin-Description: NewPlugin Description.
-Plugin-License: GNU General Public License v3.0
-
