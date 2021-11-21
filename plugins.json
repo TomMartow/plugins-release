@@ -10,7 +10,7 @@
         "date": "2021-11-21",
         "sha512sum": "eecc18100d6febd0d072ff73170ad9317ff0ce2c8822b11fd8cb701951978b2c7bad6f3038a37c5e4cadc7ebf8cbb7a48dd029773e62badb6bdc01c2e2c4292f",
         "version": "4.0.0",
-        "url": "https://github.com/TomMartow/plugins-release/blob/main/release/NewPlugin-4.0.0.jar",
+        "url": "https://github.com/TomMartow/plugins-release/blob/master/release/NewPlugin-4.0.0.jar?raw=true",
         "requires": "^1.0.0"
       }
     ]
