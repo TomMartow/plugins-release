@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/GroundItemsExtended" />
+            <option value="$PROJECT_DIR$/InterfaceMarking" />
+            <option value="$PROJECT_DIR$/InventoryStateIndicators" />
+            <option value="$PROJECT_DIR$/InventoryTagsExtended" />
+            <option value="$PROJECT_DIR$/MouseLogger" />
+            <option value="$PROJECT_DIR$/NPCHighlightingExtended" />
+            <option value="$PROJECT_DIR$/NoMoreAgility" />
+            <option value="$PROJECT_DIR$/NoMoreWintertodt" />
+            <option value="$PROJECT_DIR$/ObjectMarkersExtended" />
+            <option value="$PROJECT_DIR$/PlayerStatesIndicators" />
+            <option value="$PROJECT_DIR$/QOLClicks" />
+            <option value="$PROJECT_DIR$/QOLClicksBeta" />
+            <option value="$PROJECT_DIR$/StatRandomiser" />
+            <option value="$PROJECT_DIR$/UpOrDown" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
