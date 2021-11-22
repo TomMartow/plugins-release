@@ -1,1 +1,34 @@
-[{"projectUrl":"https://discord.gg/Ruc5fxpmTp","provider":"NoMore","name":"NewPlugin","description":"NewPlugin Description.","id":"newplugin-plugin","releases":[{"date":"2021-11-22","sha512sum":"5e2f959f36b66df0580a94f384c5fc1ceeec4b2a3925f062d7b68f21758b86581ac2adcfdde73a171a28496e758ef1b23ca4951c05455cdae9357cc3b5a5825f","version":"4.0.0","url":"https://github.com/TomMartow/plugins-release/blob/main/release/NewPlugin-4.0.0.jar?raw=true","requires":"^1.0.0"}]}]
+[
+  {
+    "projectUrl": "https://discord.gg/Ruc5fxpmTp",
+    "provider": "NoMore",
+    "name": "NewPlugin",
+    "description": "NewPlugin Description.",
+    "id": "newplugin-plugin",
+    "releases": [
+      {
+        "date": "2021-11-22",
+        "sha512sum": "eecc18100d6febd0d072ff73170ad9317ff0ce2c8822b11fd8cb701951978b2c7bad6f3038a37c5e4cadc7ebf8cbb7a48dd029773e62badb6bdc01c2e2c4292f",
+        "version": "4.0.0",
+        "url": "https://github.com/TomMartow/plugins-release/blob/main/release/NewPlugin-O-4.0.0.jar?raw=true",
+        "requires": "^1.0.0"
+      }
+    ]
+  },
+  {
+    "projectUrl": "https://discord.gg/Ruc5fxpmTp",
+    "provider": "NoMore",
+    "name": "Obfuscated",
+    "description": "NewPlugin Description.",
+    "id": "obfuscated-plugin",
+    "releases": [
+      {
+        "date": "2021-11-22",
+        "sha512sum": "2d7ceba32d4e7e453b5150dadbc1b955480431595457e84ee78866917b0da4ce01c162a0f2a0d9a65e51fc5ea07e4e6de1c8697b2b209e3b1900271af8423a80",
+        "version": "4.0.0",
+        "url": "https://github.com/TomMartow/plugins-release/blob/main/release/Obfuscated-O-4.0.0.jar?raw=true",
+        "requires": "^1.0.0"
+      }
+    ]
+  }
+]
